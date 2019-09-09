@@ -1,6 +1,6 @@
 # ESPN footy tips scraper
 
-Python webscraper with simple userform/ GUI to download AFL tipping competiton data from ESPN footy tips (www.footytips.com).
+Python webscraper with simple userform/ GUI to download AFL tipping competiton data from ESPN footy tips (www.footytips.com.au). Script currently will fetch data for a single round at a time but could easily be run in a loop to get data from all rounds
 
 ## Features
 - Written in Python (using Selenium and a Chrome webdriver)
@@ -8,7 +8,7 @@ Python webscraper with simple userform/ GUI to download AFL tipping competiton d
 - CSV exports
 
 ## Usage
-This script has been previously used for the 2018 and 2019 AFL footy tipping seasons.
+This script has been previously used for the 2018 and 2019 AFL footy tipping seasons with minor modifications
 ### Key parameters
 - Users will need to edit the script (lines 13 and 14) with their unique competition ID's which can be found in the competition URL onced logged in via the footy tips website
 - The image below highlights in yellow where these parameters can be found
@@ -29,7 +29,7 @@ This script has been previously used for the 2018 and 2019 AFL footy tipping sea
 ## Sample screens
 <table>
   <tr>
-    <th>GUI</th>
+    <th>User form/ GUI</th>
     <th>Leaderboard CSV</th>
     <th>Tips CSV</th>
   <tr>
@@ -38,8 +38,8 @@ This script has been previously used for the 2018 and 2019 AFL footy tipping sea
     <td><img src="https://github.com/andrewtwort/footy_tips_scraper/blob/master/images/Tips.png" width=300></td>
   <tr>
     <td>Simple user form with credentials and round fields</td>
-    <td>CSV export with full competition leaderboard for each round appended into a master file</td>
-    <td>CSV export with all competition tip for each round appended into a master file</td>
+    <td>CSV export with competition leaderboard for each round appended into a master file</td>
+    <td>CSV export with all competition tips for each round appended into a master file</td>
 </table>
 
 ## License
