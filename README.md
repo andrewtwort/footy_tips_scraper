@@ -8,7 +8,8 @@ Python webscraper with simple userform/ GUI to download AFL tipping competiton d
 - CSV exports
 
 ## Usage
-This script has been previously used for the 2018 and 2019 AFL footy tipping seasons with minor modifications
+This script has been previously used for the 2018 and 2019 AFL footy tipping seasons with minor modifications. Given minimal interface changes to the 2020 website we suspect it will work for the 2020 season as well.
+
 ### Key parameters
 - Users will need to edit the script (lines 13 and 14) with their unique competition ID's which can be found in the competition URL onced logged in via the footy tips website
 - The image below highlights in yellow where these parameters can be found
